@@ -526,7 +526,10 @@ const Css = () => {
       <div ref={containerRef}>
         {cssConcepts.map((category, index) => (
           <div className='item' key={index} style={{ backgroundColor: category.bg || '#fff' }}>
-            <h2 className='mb-2 font-bold'>{category.name}</h2>
+            <h2 className='mb-2 text-sm font-bold'>
+              {category.name}
+              <span className='text-neutral-500'>({category.sub})</span>
+            </h2>
             <div className='space-y-2'>
               {category.children.map((item) => (
                 <a
