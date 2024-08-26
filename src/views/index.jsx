@@ -34,7 +34,7 @@ const Home = () => {
           <div
             key={item.name}
             onClick={() => selectHandler(item.link)}
-            className={`mb-1 rounded-s-lg px-4 py-2.5 hover:bg-white ${item.link === active ? 'bg-white' : ''}`}>
+            className={`mb-1 cursor-pointer rounded-s-lg px-4 py-2.5 hover:bg-white ${item.link === active ? 'bg-white' : ''}`}>
             {item.name}
           </div>
         ))}
