@@ -5,6 +5,7 @@ const cssConcepts = [
   {
     name: '元素选择符',
     sub: 'Element Selectors',
+    bg: '#ffce54',
     children: [
       { name: 'element', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Element_Selectors' },
       { name: 'type', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors' },
@@ -14,6 +15,7 @@ const cssConcepts = [
   {
     name: '关系选择符',
     sub: 'Relationship Selectors',
+    bg: '#ffce54',
     children: [
       { name: 'descendant', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors' },
       { name: 'child', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors' },
@@ -24,6 +26,7 @@ const cssConcepts = [
   {
     name: '属性选择符',
     sub: 'Attribute Selectors',
+    bg: '#ffce54',
     children: [
       { name: 'attribute', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors' },
       { name: 'exact', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#exact_match' },
@@ -35,6 +38,7 @@ const cssConcepts = [
   {
     name: '伪对象选择符',
     sub: 'Pseudo-Object Selectors',
+    bg: '#ffce54',
     children: [
       { name: 'before', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::before' },
       { name: 'after', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::after' },
@@ -45,6 +49,7 @@ const cssConcepts = [
   {
     name: '伪类选择符',
     sub: 'Pseudo-Classes Selectors',
+    bg: '#ffce54',
     children: [
       { name: 'hover', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:hover' },
       { name: 'focus', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:focus' },
@@ -57,6 +62,7 @@ const cssConcepts = [
   {
     name: '布局',
     sub: 'Layout Methods',
+    bg: '#8cc152',
     children: [
       { name: 'display', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/display' },
       { name: 'float', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/float' },
@@ -67,6 +73,7 @@ const cssConcepts = [
   {
     name: '定位',
     sub: 'Positioning Methods',
+    bg: '#8cc152',
     children: [
       { name: 'position', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/position' },
       { name: 'top', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/top' },
@@ -79,6 +86,7 @@ const cssConcepts = [
   {
     name: '伸缩盒',
     sub: 'Flexible Box',
+    bg: '#8cc152',
     children: [
       { name: 'display: flex', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/flex' },
       { name: 'flex-direction', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction' },
@@ -97,6 +105,7 @@ const cssConcepts = [
   {
     name: '多列',
     sub: 'Multi-column',
+    bg: '#8cc152',
     children: [
       { name: 'column-count', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/column-count' },
       { name: 'column-width', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/column-width' },
@@ -108,6 +117,7 @@ const cssConcepts = [
   {
     name: '尺寸',
     sub: 'Dimension',
+    bg: '#8cc152',
     children: [
       { name: 'width', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/width' },
       { name: 'height', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/height' },
@@ -120,6 +130,7 @@ const cssConcepts = [
   {
     name: '外边距',
     sub: 'Margin',
+    bg: '#8cc152',
     children: [
       { name: 'margin', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/margin' },
       { name: 'margin-top', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/margin-top' },
@@ -139,6 +150,7 @@ const cssConcepts = [
   {
     name: '内边距',
     sub: 'Padding',
+    bg: '#8cc152',
     children: [
       { name: 'padding', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/padding' },
       { name: 'padding-top', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top' },
@@ -158,6 +170,7 @@ const cssConcepts = [
   {
     name: '边框',
     sub: 'Border',
+    bg: '#8cc152',
     children: [
       { name: 'border', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/border' },
       { name: 'border-width', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/border-width' },
@@ -174,6 +187,7 @@ const cssConcepts = [
   {
     name: '背景',
     sub: 'Background',
+    bg: '#8cc152',
     children: [
       { name: 'background', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/background' },
       { name: 'background-color', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/background-color' },
@@ -189,6 +203,7 @@ const cssConcepts = [
   {
     name: '颜色',
     sub: 'Color',
+    bg: '#8cc152',
     children: [
       { name: 'color', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color' },
       { name: 'opacity', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/opacity' },
@@ -197,6 +212,8 @@ const cssConcepts = [
   {
     name: '字体',
     sub: 'Font',
+    bg: '#8cc152',
+    bg: '#8cc152',
     children: [
       { name: 'font', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/font' },
       { name: 'font-family', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/font-family' },
@@ -213,6 +230,7 @@ const cssConcepts = [
   {
     name: '文本',
     sub: 'Text',
+    bg: '#8cc152',
     children: [
       { name: 'text-align', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/text-align' },
       { name: 'text-indent', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent' },
@@ -226,6 +244,7 @@ const cssConcepts = [
   {
     name: '文本装饰',
     sub: 'Text Decoration',
+    bg: '#8cc152',
     children: [
       { name: 'text-decoration', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration' },
       { name: 'text-decoration-line', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line' },
@@ -236,6 +255,7 @@ const cssConcepts = [
   {
     name: '书写模式',
     sub: 'Writing Modes',
+    bg: '#8cc152',
     children: [
       { name: 'writing-mode', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode' },
       { name: 'text-combine-upright', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright' },
@@ -245,6 +265,7 @@ const cssConcepts = [
   {
     name: '列表',
     sub: 'List',
+    bg: '#8cc152',
     children: [
       { name: 'list-style', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/list-style' },
       { name: 'list-style-type', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type' },
@@ -255,6 +276,7 @@ const cssConcepts = [
   {
     name: '表格',
     sub: 'Table',
+    bg: '#8cc152',
     children: [
       { name: 'display: table', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/display-table' },
       { name: 'table-layout', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout' },
@@ -268,6 +290,7 @@ const cssConcepts = [
   {
     name: '内容',
     sub: 'Content',
+    bg: '#8cc152',
     children: [
       { name: 'content', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/content' },
       { name: 'counter-reset', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/counter-reset' },
@@ -277,6 +300,7 @@ const cssConcepts = [
   {
     name: '用户界面',
     sub: 'User Interface',
+    bg: '#8cc152',
     children: [
       { name: 'user-select', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/user-select' },
       { name: 'cursor', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/cursor' },
@@ -287,6 +311,7 @@ const cssConcepts = [
   {
     name: '变换',
     sub: 'Transform',
+    bg: '#8cc152',
     children: [
       { name: 'transform', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transform' },
       { name: 'transform-origin', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin' },
@@ -295,6 +320,7 @@ const cssConcepts = [
   {
     name: '过渡',
     sub: 'Transition',
+    bg: '#8cc152',
     children: [
       { name: 'transition', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transition' },
       { name: 'transition-property', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property' },
@@ -306,6 +332,7 @@ const cssConcepts = [
   {
     name: '动画',
     sub: 'Animation',
+    bg: '#8cc152',
     children: [
       { name: 'animation', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/animation' },
       { name: 'animation-name', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name' },
@@ -321,6 +348,7 @@ const cssConcepts = [
   {
     name: '打印',
     sub: 'Printing',
+    bg: '#8cc152',
     children: [
       { name: 'page-break-before', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-before' },
       { name: 'page-break-after', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after' },
@@ -332,6 +360,7 @@ const cssConcepts = [
   {
     name: '语法与规则',
     sub: 'Rules',
+    bg: '#8cc152',
     children: [
       { name: 'syntax', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax' },
       { name: 'rules', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Rules' },
@@ -340,6 +369,7 @@ const cssConcepts = [
   {
     name: '颜色值',
     sub: 'Values',
+    bg: '#8cc152',
     children: [
       { name: 'color', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color' },
       { name: 'opacity', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/opacity' },
@@ -348,6 +378,7 @@ const cssConcepts = [
   {
     name: '文本值',
     sub: 'Textual',
+    bg: '#8cc152',
     children: [
       { name: 'font-family', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/font-family' },
       { name: 'font-size', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/font-size' },
@@ -358,6 +389,7 @@ const cssConcepts = [
   {
     name: '函数值',
     sub: 'Functional',
+    bg: '#4fc1e9',
     children: [
       { name: 'calc()', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/calc' },
       { name: 'var()', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/var' },
@@ -367,6 +399,7 @@ const cssConcepts = [
   {
     name: '图像值',
     sub: 'Image',
+    bg: '#4fc1e9',
     children: [
       { name: 'url()', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/url' },
       { name: 'image()', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/image' },
@@ -375,11 +408,13 @@ const cssConcepts = [
   {
     name: '数字值',
     sub: 'Numeric',
+    bg: '#4fc1e9',
     children: [{ name: 'number', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/number' }],
   },
   {
     name: '其它类型值',
     sub: 'Other',
+    bg: '#4fc1e9',
     children: [
       { name: 'initial', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/initial' },
       { name: 'inherit', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/inherit' },
@@ -390,6 +425,7 @@ const cssConcepts = [
   {
     name: '长度单位',
     sub: 'Length',
+    bg: '#4fc1e9',
     children: [
       { name: 'px', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/length' },
       { name: 'em', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/length' },
@@ -406,6 +442,7 @@ const cssConcepts = [
   {
     name: '角度单位',
     sub: 'Angle',
+    bg: '#4fc1e9',
     children: [
       { name: 'deg', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/angle' },
       { name: 'rad', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/angle' },
@@ -416,6 +453,7 @@ const cssConcepts = [
   {
     name: '时间单位',
     sub: 'Time',
+    bg: '#4fc1e9',
     children: [
       { name: 's', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/time' },
       { name: 'ms', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/time' },
@@ -424,6 +462,7 @@ const cssConcepts = [
   {
     name: '频率单位',
     sub: 'Frequency',
+    bg: '#4fc1e9',
     children: [
       { name: 'hz', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/frequency' },
       { name: 'khz', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/frequency' },
@@ -432,11 +471,13 @@ const cssConcepts = [
   {
     name: '百分比值',
     sub: 'Percentage',
+    bg: '#4fc1e9',
     children: [{ name: '%', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/percentage' }],
   },
   {
     name: '视口单位',
     sub: 'Viewport',
+    bg: '#4fc1e9',
     children: [
       { name: 'vw', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/viewport' },
       { name: 'vh', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/viewport' },
@@ -484,7 +525,7 @@ const Css = () => {
       <Title>CSS 速查表</Title>
       <div ref={containerRef}>
         {cssConcepts.map((category, index) => (
-          <div className='item' key={index}>
+          <div className='item' key={index} style={{ backgroundColor: category.bg || '#fff' }}>
             <h2 className='mb-2 font-bold'>{category.name}</h2>
             <div className='space-y-2'>
               {category.children.map((item) => (
@@ -493,7 +534,7 @@ const Css = () => {
                   href={item.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='block rounded px-2 text-sm text-blue-500 hover:bg-blue-500 hover:text-white'>
+                  className='block rounded px-2 text-sm hover:bg-black/20 hover:text-white'>
                   {item.name}
                 </a>
               ))}
