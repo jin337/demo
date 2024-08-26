@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #eceff7;
+  color: #171717;
+}
+/* 滚动条 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ddd;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+
+img {
+  border: none;
+  display: block;
+}
+input[type='radio'],
+input[type='checkbox'] {
+  appearance: auto;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  border: initial;
+  background: initial;
+  box-shadow: none;
+  padding: initial;
+  margin: initial;
+  outline: initial;
+  color: initial;
+  font: initial;
+  cursor: pointer;
+}
+input:focus {
+  border: 1px solid #aaa;
+  outline: none;
+  box-shadow: none;
+}
+input:disabled  {
+background-color: #eceff7;
+cursor:not-allowed;
+}
+/* 针对 Chrome, Safari, Edge, Opera */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* 针对 Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* 针对 IE */
+input[type='number'] {
+  -ms-appearance: none;
+}
+.content {
+  font-family: 'Courier New', Courier, monospace;
+}
+.direction {
+  position: relative;
+  height: 230px;
+  input {
+    margin: 0 2px;
+  }
+  & > div {
+    position: absolute;
+  }
+  .top {
+    top: 0;
+    left: 140px;
+  }
+  .bottom {
+    top: 210px;
+    left: 140px;
+  }
+  .right {
+    top: 105px;
+    left: 255px;
+  }
+  .left {
+    top: 105px;
+    left: 25px;
+  }
+  .rightTop {
+    top: 26px;
+    left: 250px;
+  }
+  .rightBottom {
+    top: 186px;
+    left: 250px;
+  }
+  .leftBottom {
+    top: 186px;
+    left: 25px;
+  }
+  .leftTop {
+    top: 26px;
+    left: 25px;
+  }
+}
+.front {
+  position: absolute;
+  left: 85px;
+  top: 45px;
+  & > label {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #eceff7;
+    cursor: pointer;
+    &:hover{
+      background-color: #0094ff;
+    }
+  }
+  .active{
+    background-color: #0094ff;
+}
+  .rightTop {
+    top: 0;
+    left: 70px;
+  }
+  .leftTop {
+    top: 0;
+    left: 0;
+  }
+  .leftBottom {
+    top: 70px;
+    left: 0;
+  }
+  .rightBottom {
+    top: 70px;
+    left: 70px;
+  }
+}
+.rotate {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 155px;
+  top: 115px;
+  & > label {
+    position: absolute;
+    background: #fc0;
+    width: 60px;
+    height: 60px;
+    &:hover{
+      background-color: #0094ff;
+    }
+  }
+  .active{
+      background-color: #0094ff;
+  }
+  .top {
+    bottom: 0;
+    left: 0;
+  }
+  .bottom {
+    top: 0;
+    right: 0;
+  }
+  .left {
+    bottom: 0;
+    right: 0;
+  }
+  .right {
+    top: 0;
+    left: 0;
+  }
+}
+.group-img {
+  position: absolute;
+  z-index: 1;
+  left: 112px;
+  top: 72px;
+  width: 85px;
+  height: 85px;
+  background-color: #fff;
+}
