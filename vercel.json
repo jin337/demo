@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/flexbox",
-      "destination": "index.html"
+      "destination": "https://demo.jin337.top/index.html"
     }
   ]
 }
