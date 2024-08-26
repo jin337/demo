@@ -1,5 +1,5 @@
-import { useEffect } from 'react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import Title from '../components/Title'
 
 const flexProperties = [
   {
@@ -122,7 +122,7 @@ const Flexbox = () => {
   }
   return (
     <>
-      <div className='mb-2 text-center text-3xl font-bold'>Flexbox演示</div>
+      <Title>Flexbox演示</Title>
       <div className='m-auto w-[750px]'>
         <div className='flex w-full justify-between'>
           {flexProperties.map((item) => (

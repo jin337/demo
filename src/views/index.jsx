@@ -11,6 +11,10 @@ const menu = [
     name: 'Triangle',
     link: '/triangle',
   },
+  {
+    name: 'CSS',
+    link: '/css',
+  },
 ]
 
 const Home = () => {
