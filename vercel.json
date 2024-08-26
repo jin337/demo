@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/flexbox",
+      "destination": "index.html"
+    }
+  ]
+}
