@@ -7,7 +7,16 @@ export default {
     },
     extend: {
       backgroundImage: {
-        triangle: "url('/src/assets/transparent.png')",
+        triangle: "url('/src/assets/imgs/transparent.png')",
+      },
+      keyframes: {
+        fadeUp: {
+          '0%': { opacity: 1, transform: 'translateY(0)' },
+          '100%': { opacity: 0, transform: 'translateY(-20px)' },
+        },
+      },
+      animation: {
+        fadeUp: 'fadeUp 1s ease-out forwards',
       },
     },
   },

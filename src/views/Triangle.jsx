@@ -123,7 +123,7 @@ const Triangle = () => {
   return (
     <>
       <Title>Triangle三角形生成器</Title>
-      <div className='triangle-wrap m-auto flex w-[750px] gap-10'>
+      <div className='triangle-wrap m-auto flex w-[720px] gap-10'>
         <div className='w-1/2'>
           <div className='my-2 font-bold'>方向</div>
           <div className='relative'>

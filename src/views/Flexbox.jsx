@@ -123,7 +123,7 @@ const Flexbox = () => {
   return (
     <>
       <Title>Flexbox演示</Title>
-      <div className='m-auto w-[750px]'>
+      <div className='m-auto w-[720px]'>
         <div className='flex w-full justify-between'>
           {flexProperties.map((item) => (
             <div key={item.id}>

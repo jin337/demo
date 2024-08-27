@@ -12,8 +12,12 @@ const menu = [
     link: '/triangle',
   },
   {
-    name: 'CSS',
-    link: '/css',
+    name: 'CSS速查表',
+    link: '/css-docs',
+  },
+  {
+    name: 'CSS渐变色',
+    link: '/css-gradients',
   },
 ]
 
@@ -43,7 +47,7 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <div className='font-Courier w-[calc(100%-200px)] min-w-[750px] overflow-y-auto bg-white p-4'>
+      <div className='font-Courier relative w-[calc(100%-200px)] min-w-[750px] overflow-y-auto bg-white p-4'>
         <Outlet />
       </div>
     </div>

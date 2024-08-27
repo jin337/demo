@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "iconfont";
+  src: url('./assets//fonts/iconfont.ttf?t=1724728122274') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  line-height: 1;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;

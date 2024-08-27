@@ -517,7 +517,7 @@ const cssConcepts = [
   },
 ]
 
-const Css = () => {
+const CssDocs = () => {
   const containerRef = useRef(null)
 
   useEffect(() => {
@@ -552,10 +552,10 @@ const Css = () => {
 
   return (
     <>
-      <Title>CSS 速查表</Title>
+      <Title>CSS速查表</Title>
       <div ref={containerRef}>
         {cssConcepts.map((category, index) => (
-          <div className='rounded-lg p-4 shadow' key={index} style={{ backgroundColor: category.bg || '#fff' }}>
+          <div className='break-all rounded-lg p-4 shadow' key={index} style={{ backgroundColor: category.bg || '#fff' }}>
             <h2 className='mb-2 text-sm font-bold'>
               {category.name}
               <span className='text-neutral-500'>({category.sub})</span>
@@ -579,4 +579,4 @@ const Css = () => {
   )
 }
 
-export default Css
+export default CssDocs
