@@ -161,7 +161,7 @@ const Flexbox = () => {
             </div>
           </div>
           <div
-            className='my-2 flex min-h-80 gap-1 rounded-lg bg-blue-600 p-4'
+            className='my-2 flex min-h-72 gap-1 rounded-lg bg-blue-600 p-4'
             style={{
               flexDirection: formState['flex-direction'],
               flexWrap: formState['flex-wrap'],

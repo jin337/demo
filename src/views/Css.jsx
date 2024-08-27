@@ -555,7 +555,7 @@ const Css = () => {
       <Title>CSS 速查表</Title>
       <div ref={containerRef}>
         {cssConcepts.map((category, index) => (
-          <div className='item' key={index} style={{ backgroundColor: category.bg || '#fff' }}>
+          <div className='rounded-lg p-4 shadow' key={index} style={{ backgroundColor: category.bg || '#fff' }}>
             <h2 className='mb-2 text-sm font-bold'>
               {category.name}
               <span className='text-neutral-500'>({category.sub})</span>

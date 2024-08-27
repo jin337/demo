@@ -123,7 +123,7 @@ const Triangle = () => {
   return (
     <>
       <Title>Triangle三角形生成器</Title>
-      <div className='m-auto flex w-[750px] gap-10'>
+      <div className='triangle-wrap m-auto flex w-[750px] gap-10'>
         <div className='w-1/2'>
           <div className='my-2 font-bold'>方向</div>
           <div className='relative'>
@@ -171,7 +171,7 @@ const Triangle = () => {
                   className={`${item.id} ${item.id === formState.direction ? 'active' : ''}`}></label>
               ))}
             </div>
-            <div className='group-img'></div>
+            <div className='absolute left-[112px] top-[72px] z-10 size-[85px] bg-white'></div>
           </div>
 
           <div className='mt-6 flex items-center gap-2'>
