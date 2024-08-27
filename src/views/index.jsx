@@ -43,7 +43,7 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <div className='content w-[calc(100%-200px)] overflow-y-auto bg-white p-3'>
+      <div className='content w-[calc(100%-200px)] overflow-y-auto bg-white p-4'>
         <Outlet />
       </div>
     </div>

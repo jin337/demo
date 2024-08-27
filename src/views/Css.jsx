@@ -7,9 +7,10 @@ const cssConcepts = [
     sub: 'Element Selectors',
     bg: '#ffce54',
     children: [
-      { name: 'element', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Element_Selectors' },
-      { name: 'type', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors' },
-      { name: 'universal', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors' },
+      { name: 'E', link: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Type_selectors' },
+      { name: '*', link: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Universal_selectors' },
+      { name: 'E#id', link: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/ID_selectors' },
+      { name: 'E.class', link: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Class_selectors' },
     ],
   },
   {
@@ -17,10 +18,10 @@ const cssConcepts = [
     sub: 'Relationship Selectors',
     bg: '#ffce54',
     children: [
-      { name: 'descendant', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors' },
-      { name: 'child', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors' },
-      { name: 'adjacent', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors' },
-      { name: 'general', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors' },
+      { name: 'E F', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors' },
+      { name: 'E>F', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors' },
+      { name: 'E+F', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors' },
+      { name: 'E~F', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors' },
     ],
   },
   {
@@ -28,11 +29,34 @@ const cssConcepts = [
     sub: 'Attribute Selectors',
     bg: '#ffce54',
     children: [
-      { name: 'attribute', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors' },
-      { name: 'exact', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#exact_match' },
-      { name: 'prefix', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#prefix_match' },
-      { name: 'suffix', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#suffix_match' },
-      { name: 'contains', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#contains' },
+      {
+        name: '[attr]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors',
+      },
+      {
+        name: '[attr=value]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#Exact_attribute_value',
+      },
+      {
+        name: '[attr~=value]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#Substring_attribute_value',
+      },
+      {
+        name: '[attr|=value]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#Hyphen_attribute_value',
+      },
+      {
+        name: '[attr^=value]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#Begins_with',
+      },
+      {
+        name: '[attr$=value]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#Ends_with',
+      },
+      {
+        name: '[attr*=value]',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#Contains',
+      },
     ],
   },
   {
@@ -40,10 +64,12 @@ const cssConcepts = [
     sub: 'Pseudo-Object Selectors',
     bg: '#ffce54',
     children: [
-      { name: 'before', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::before' },
-      { name: 'after', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::after' },
-      { name: 'first-line', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line' },
-      { name: 'first-letter', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter' },
+      { name: '::before', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::before' },
+      { name: '::after', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::after' },
+      { name: '::first-line', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line' },
+      { name: '::first-letter', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter' },
+      { name: '::selection', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::selection' },
+      { name: '::placeholder', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder' },
     ],
   },
   {
@@ -51,12 +77,17 @@ const cssConcepts = [
     sub: 'Pseudo-Classes Selectors',
     bg: '#ffce54',
     children: [
-      { name: 'hover', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:hover' },
-      { name: 'focus', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:focus' },
-      { name: 'active', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:active' },
-      { name: 'visited', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:visited' },
-      { name: 'nth-child', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child' },
-      { name: 'nth-of-type', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type' },
+      { name: ':hover', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:hover' },
+      { name: ':focus', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:focus' },
+      { name: ':active', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:active' },
+      { name: ':visited', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:visited' },
+      { name: ':first-child', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child' },
+      { name: ':last-child', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child' },
+      { name: ':nth-child', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child' },
+      { name: ':nth-of-type', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type' },
+      { name: ':root', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:root' },
+      { name: ':empty', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:empty' },
+      { name: ':checked', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/:checked' },
     ],
   },
   {
@@ -212,7 +243,6 @@ const cssConcepts = [
   {
     name: '字体',
     sub: 'Font',
-    bg: '#8cc152',
     bg: '#8cc152',
     children: [
       { name: 'font', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/font' },
