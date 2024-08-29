@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from 'react'
 import html2canvas from 'html2canvas'
+import { useEffect, useRef, useState } from 'react'
 
 import Title from '../components/Title'
 
@@ -195,8 +195,9 @@ const Cssgradients = () => {
             </div>
           </div>
         </div>
-        <div className={`absolute z-50 h-[90%] w-full overflow-y-scroll bg-white ${showAll ? 'visible' : 'invisible'}`}>
-          <div className='ml-4 flex flex-wrap gap-4 pb-4'>
+        <div
+          className={`absolute z-50 h-[calc(100%-88px)] w-full overflow-y-scroll bg-white ${showAll ? 'visible' : 'invisible'}`}>
+          <div className='flex flex-wrap justify-center gap-4 pb-4'>
             {colorList.map((item, index) => (
               <div
                 key={index}
